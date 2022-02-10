@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:ital,wght@0,300;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+header{
+    background-image: url("/maintancen\ 3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45%;
+
+}
+header h1 {
+    
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    text-align: center;
+    color: #1A270E;
+    padding-top: 120px;
+}
+
+main h1, h3 {
+    text-align: center;
+    
+}
+main h1 {
+    padding-top: 80px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+}
+main h3{
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+    color: #C4E9A0;
+}
+ main {
+    
+    text-align: center;
+    flex-grow: 1;
+    background-color: #1A270E;
+    color: white;
+ }
+ footer{
+     background-color: #0C1504;
+ }
+
+ .footer-div {
+     color: white;
+     padding: 40px 15px;
+     display: flex;
+     width: 70%;
+     margin: 0 auto;
+     justify-content: space-evenly;
+ }
+ .about {
+     flex-wrap: wrap;
+     width: 40%;
+     display: flex;
+     gap: 15px;
+     
+ }
+ .about p{ 
+     font-family: Poppins;
+     width: 80%;
+     text-align: justify;
+ }
+ .about img{
+    align-self: center;
+    
+ }
+
+ .footer-nav {
+     display: flex;
+     gap: 25px;
+ }
+
+ .footer-div ul li{
+     font-family: Poppins;
+     margin-bottom: 10px;
+     list-style: none;
+ }
+ 
