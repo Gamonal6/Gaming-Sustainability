@@ -33,15 +33,18 @@ header h1 {
 main h1, h3 {
     text-align: center;
     
+    
 }
 main h1 {
     padding-top: 80px;
+    
     font-family: Oswald;
     font-style: normal;
     font-weight: bold;
     font-size: 44px;
 }
 main h3{
+    padding-bottom: 80px;
     font-family: Poppins;
     font-style: italic;
     font-weight: 500;
